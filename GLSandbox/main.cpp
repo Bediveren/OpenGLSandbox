@@ -170,6 +170,8 @@ int main()
 	glDeleteShader(vertexShader);
 	glDeleteShader(fragmentShader);
 
+	// VAO
+	//-----------------------------------------------------------------------------
 	glGenVertexArrays(1, &VAO);
 	glBindVertexArray(VAO);
 
